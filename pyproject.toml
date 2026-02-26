@@ -1,0 +1,12 @@
+[project]
+name = "quizmaster"
+version = "0.1.0"
+description = "Three-agent quiz system using local Ollama models"
+authors = [{name="Your Name"}]
+dependencies = [
+    "pydantic",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
